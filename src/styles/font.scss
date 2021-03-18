@@ -1,0 +1,63 @@
+.g-font-mid {
+  font-family: Poppins-Medium, "PingFang SC", 微软雅黑, 黑体, Microsoft YaHei, SimHei, "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.g-font-bold {
+  font-family: Poppins-Bold, "PingFang SC", 微软雅黑, 黑体, Microsoft YaHei, SimHei, "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.g-font-semi {
+  font-family: Poppins-SemiBold, "PingFang SC", 微软雅黑, 黑体, Microsoft YaHei, SimHei, "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Poppins-Medium */
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../assets/font/Poppins-Medium.woff2") format("woff2"),
+  url("../assets/font/Poppins-Medium.woff") format("woff"),
+  url("../assets/font/Poppins-Medium.ttf") format("truetype"),
+  url("../assets/font/Poppins-Medium.eot") format("embedded-opentype"),
+  url("../assets/font/Poppins-Medium.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Poppins-Regular */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../assets/font/Poppins-Regular.woff2") format("woff2"),
+  url("../assets/font/Poppins-Regular.woff") format("woff"),
+  url("../assets/font/Poppins-Regular.ttf") format("truetype"),
+  url("../assets/font/Poppins-Regular.eot") format("embedded-opentype"),
+  url("../assets/font/Poppins-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Poppins-Bold */
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../assets/font/Poppins-Bold.woff2") format("woff2"),
+  url("../assets/font/Poppins-Bold.woff") format("woff"),
+  url("../assets/font/Poppins-Bold.ttf") format("truetype"),
+  url("../assets/font/Poppins-Bold.eot") format("embedded-opentype"),
+  url("../assets/font/Poppins-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Poppins-SemiBold */
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../assets/font/Poppins-SemiBold.woff2") format("woff2"),
+  url("../assets/font/Poppins-SemiBold.woff") format("woff"),
+  url("../assets/font/Poppins-SemiBold.ttf") format("truetype"),
+  url("../assets/font/Poppins-SemiBold.eot") format("embedded-opentype"),
+  url("../assets/font/Poppins-SemiBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+

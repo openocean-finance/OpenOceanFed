@@ -1,0 +1,142 @@
+{
+  "id": "2371948",
+  "name": "OpenOcean",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20225256",
+      "name": "Pro Settings 1",
+      "font_class": "ProSettings1",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "20225257",
+      "name": "Pro Settings 3",
+      "font_class": "ProSettings3",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "20225258",
+      "name": "Pro Settings 2",
+      "font_class": "ProSettings2",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "19911234",
+      "name": "Logo Black",
+      "font_class": "LogoBlack",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "19960892",
+      "name": "Setting",
+      "font_class": "Setting",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "19956135",
+      "name": "Close",
+      "font_class": "Close",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "19945322",
+      "name": "Arrow",
+      "font_class": "Arrow",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "19938908",
+      "name": "List",
+      "font_class": "List",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "18682906",
+      "name": "line-Process settings",
+      "font_class": "line-Processsettings",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "19933830",
+      "name": "Market",
+      "font_class": "Market",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "19929183",
+      "name": "Change",
+      "font_class": "Change",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "19912484",
+      "name": "Dark",
+      "font_class": "Dark",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "19908411",
+      "name": "Search",
+      "font_class": "Search",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "19908404",
+      "name": "Copy",
+      "font_class": "Copy",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "19908405",
+      "name": "Dropdown",
+      "font_class": "Dropdown",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "19908406",
+      "name": "Email",
+      "font_class": "Email",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "19908407",
+      "name": "Light",
+      "font_class": "Light",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "19908408",
+      "name": "Fold",
+      "font_class": "Fold",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "19908409",
+      "name": "Safe",
+      "font_class": "Safe",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+:root {
+  // common
+  --blue: rgba(6, 46, 245, 1);
+  --green: rgba(0, 192, 118, 1);
+  --red: #F84960;
+  --color-btn: #fff;
+  --red-light: rgba(248, 73, 96, .1);
+  --background-toast-fail: rgba(248, 73, 96, .95);
+  --background-toast-success: rgba(0, 192, 118, .95);
+  --green-light: rgba(0, 192, 118, .1);
+  // var
+  --space-common: .3rem;
+  --space-common-negative: -.3rem;
+  --space-common-sm: .2rem;
+  --radius-common: .1rem;
+  --header-height: 1.2rem;
+  --z-index-toast: 99999;
+  --z-index-header-menu: 4;
+  --z-index-header-switch: 3;
+  --z-index-header-mask: 2;
+  --z-index-mask: 5;
+  --z-index-action: 3;
+  --z-index-tab-label: 1;
+  --z-index-content: 1;
+  --blur: blur(20px);
+  // theme
+  --background: #f7f7f7;
+  --background-base: #f6f6f6;
+  --background-pro-header: #f6f6f6;
+  --background-pro-main: #fff;
+  --background-lighter: rgba(0, 0, 0, .1);
+  --background-lighter-hover: rgba(0, 0, 0, .2);
+  --background-btn: var(--blue);
+  --background-dot: rgba(6, 46, 245, .3);
+  --background-dot-inner: rgba(6, 46, 245, .3);
+  --background-classic-content: rgba(255, 255, 255, .7);
+  --background-classic-card: rgba(0, 0, 0, 0.03);
+  --background-table-hover: rgba(0, 0, 0, 0.035);
+  --background-classic-transaction: rgba(0, 0, 0, 0.05);
+  --background-header-menu: #EAEAEA;
+  --border-light: rgba(0, 0, 0, 0.05);
+  --background-classic-tip: rgba(0, 0, 0, 0.05);
+  --background-classic-btn: rgba(0, 0, 0, .03);
+  --dialog-mask: rgba(0, 0, 0, .3);
+  --dialog-content: rgba(255, 255, 255, 1);
+  --mask-action: rgba(0, 0, 0, .1);
+  --color-base: #000;
+  --color-content: rgba(0, 0, 0, .6);
+  --color-des: rgba(0, 0, 0, .3);
+  --color-lighter: rgba(0, 0, 0, .2);
+  --color-light: #fff;
+
+  .g-dark {
+    --background: rgba(19, 22, 27, 1);
+    --background-base: rgba(30, 32, 38, 1);
+    --background-pro-header: rgba(19, 22, 27, 1);
+    --background-pro-main: rgba(30, 32, 38, 1);
+    --background-lighter: rgba(255, 255, 255, .1);
+    --background-lighter-hover: rgba(255, 255, 255, .2);
+    --background-btn: var(--blue);
+    --background-dot: rgba(6, 46, 245, .3);
+    --background-dot-inner: rgba(6, 46, 245, .3);
+    --background-classic-content: rgba(255, 255, 255, 0.05);
+    --background-classic-card: rgba(255, 255, 255, .05);
+    --background-table-hover: rgba(255, 255, 255, .035);
+    --background-classic-transaction: rgba(255, 255, 255, 0.05);
+    --background-header-menu: #32343A;
+    --border-light: rgba(255, 255, 255, 0.05);
+    --background-classic-tip: rgba(255, 255, 255, 0.05);
+    --background-classic-btn: rgba(255, 255, 255, .05);
+    --dialog-mask: rgba(0, 0, 0, .8);
+    --dialog-content: rgba(31, 33, 38, 1);
+    --mask-action: rgba(0, 0, 0, .6);
+    --color-base: #fff;
+    --color-content: rgba(255, 255, 255, .6);
+    --color-des: rgba(255, 255, 255, .3);
+    --color-lighter: rgba(255, 255, 255, .2);
+    --color-light: #000;
+  }
+}
+
+body.g-dark {
+
+  .g-light-only {
+    display: none;
+  }
+}
+
+body:not(.g-dark) {
+  .g-dark-only {
+    display: none;
+  }
+}
+
+.g-light-only {
+}
+
+.g-dark-only {
+}

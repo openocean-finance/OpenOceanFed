@@ -1,0 +1,9 @@
+.c-item {
+  padding: var(--space-common);
+  border-radius: var(--radius-common);
+  background: var(--background);
+
+  & + & {
+    margin-top: var(--space-common-sm);
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name=description
+        content="OpenOcean is the entrance for one-stop crypto trading on DEXes and CEXes. OpenOcean finds the best price and lowest slippage for traders on aggregated DEXes and CEXes by applying a deeply optimized intelligent routing algorithm.OpenOcean also provides users with APIs to support their specific investment strategy, and provide institutional investors with tailor-made user interfaces.">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="/favicon-256x256.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>OpenOcean｜Decentralized Full Aggregation Protocol｜All For Your Trading</title>
+  <!-- <script src="https://wechatfe.github.io/lib/vconsole/3.4.0/vconsole.min.js"></script> -->
+  <script>
+    if (!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      if (location.pathname === 'classic') {
+        location.href = '<%= process.env.VUE_APP_CLASSIC_PC %>';
+      } else {
+        location.href = '<%= process.env.VUE_APP_PRO_PC %>';
+      }
+    }
+    // window.vConsole = new window.VConsole({
+    //   defaultPlugins: ['system', 'network', 'element', 'storage'], // 可以在此设定要默认加载的面板
+    //   maxLogNumber: 1000,
+    //   // disableLogScrolling: true,
+    //   onReady: () => {
+    //     console.log('vConsole is ready.');
+    //   },
+    //   onClearLog: () => {
+    //     console.log('on clearLog');
+    //   }
+    // });
+  </script>
+</head>
+<body>
+<noscript>
+  <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+    Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
